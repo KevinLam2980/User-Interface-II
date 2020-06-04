@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" rel="stylesheet" >
     <link rel="stylesheet" href="style/index.css">
     <title>Kevin Lam</title>
 </head>
@@ -10,10 +12,10 @@
 <body>
 
     <header>
-        <a id="logo" href="/index.html"><p>Kevin Lam</p></a>
+        <a id="logo" href="/index.html"><p><i class="fa fa-laptop-code"></i> Kevin Lam</p></a>
 
         <nav>
-            <a href="#">Home</a>
+            <a href="#" class="active">Home</a>
             <a href="/about.html">About</a>
             <a href="contact.html">Contact</a>
             <a href="projects.html">Projects</a>
@@ -23,42 +25,60 @@
 <section id="banner">
     <div>
         <h1>Kevin Lam</h1>
-        <a href="">My Projects</a>
+        <a href="/projects.html">My Projects</a>
     </div>
 </section>
 
 <section id="showcase">
     <div class="container">
-        <div>
-            <img src="/images/web pic.jpeg" alt="">
-            <p>Title of project</p>
-        </div>
-        <div>
-            <img src="/images/2.jpeg" alt="">
-            <p>Title of project</p>
-        </div>
-        <div>
-            <img src="/images/3.jpeg" alt="">
-            <p>Title of project</p>
-        </div>
+        <a href="#">
+            <div>
+                <img src="/images/web pic.jpeg" alt="">
+                <p>Title of project</p>
+            </div>
+        </a>
+        <a href="#">
+            <div>
+                <img src="/images/2.jpeg" alt="">
+                <p>Title of project</p>
+            </div>
+        </a>
+        <a href="#">
+            <div>
+                <img src="/images/3.jpeg" alt="">
+                <p>Title of project</p>
+            </div>
+        </a>
+      <a href="#">
         <div>
             <img src="/images/4.jpeg" alt="">
             <p>Title of project</p>
         </div>
+      </a>
+     <a href="#">
         <div>
             <img src="/images/5.jpeg" alt="">
             <p>Title of project</p>
         </div>
+     </a>
+     <a href="#">
         <div>
             <img src="/images/6.jpeg" alt="">
             <p>Title of project</p>
         </div>
+     </a>
+       
     </div>
 </section>
 
 
 <footer>
-    <a href="">Contact Me</a>
+    <a id="contact-button" href="/contact.html">Contact Me</a>
+    <div>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-twitter-square"></i></a>
+    </div>
 </footer>
 
 
