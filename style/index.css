@@ -4,7 +4,7 @@
     padding:0;
     margin:0;
     max-width:100%;
-    border:1px solid grey;
+    /* border:1px solid grey; */
     }
     
     html{
@@ -42,6 +42,7 @@ header nav a {
     justify-content: center;
     align-items: center;
     text-decoration: none;
+    border: 1px solid black;
 }
 
 /* Banner section */
@@ -52,6 +53,82 @@ header nav a {
     align-items: center;
 }
 
-section div {
+#banner div {
+    background-image: url(/images/photo-1489844097929-c8d5b91c456e.jpeg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    overflow: hidden;
     width: 80%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
 }
+
+h1 {
+    font-size: 6rem;
+    color: White;
+    margin: 1.5rem;
+    text-shadow: 2px 2px 5px black;
+}
+
+#banner a {
+    display: inline-block;
+    background-color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    box-shadow: 2px 2px 5px black;
+}
+
+/* showcase */
+#showcase {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+.container div {
+    max-width: 30%;
+    min-width: 300px;
+    text-align: center;
+}
+
+.container div p {
+    margin-bottom: 2rem;
+}
+
+
+
+/* footer */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    min-height: 100px;
+    background-color: rgb(220, 219, 245);
+}
+
+footer a {
+    display: inline-block;
+    background-color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    box-shadow: 2px 2px 5px black;
+}
+
