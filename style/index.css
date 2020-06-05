@@ -18,6 +18,8 @@
     body {
     font-size: 1.6rem;
     background-image: url(/images/photo-1483959651481-dc75b89291f1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     }
     
 /* header css */
@@ -243,8 +245,6 @@ footer div a:hover {
         font-size: 1.6rem;
         padding: 1rem;
     }
-
-
     h1 {
         font-size: 4rem;
     }
