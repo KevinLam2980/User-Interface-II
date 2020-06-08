@@ -233,6 +233,9 @@ footer div a:hover {
     #banner div {
         width: 90%;
     }
+    header a p {
+        font-size: 2.8rem;
+    }
 }
 
 
@@ -251,7 +254,7 @@ footer div a:hover {
         align-items: center;
     }
     header nav a {
-        width: 50%;
+        width: 45%;
         font-size: 1.6rem;
         padding: 1rem;
     }
@@ -259,7 +262,7 @@ footer div a:hover {
         font-size: 5rem;
     }
     #banner div {
-        height: 30vh;
+        height: 35vh;
     }
     header {
         margin: 2rem 0;
